@@ -1,3 +1,10 @@
+GIT
+  remote: git@github.com:darrencauthon/sbadmin2_rails.git
+  revision: 59c4eaf23468243c95b04b9d70b2990ade7edc01
+  specs:
+    sbadmin2_rails (0.0.1)
+      rails (~> 4.2.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -148,6 +155,7 @@ DEPENDENCIES
   jquery-rails
   rails (= 4.2.1)
   sass-rails (~> 5.0)
+  sbadmin2_rails!
   sdoc (~> 0.4.0)
   spring
   sqlite3
