@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Pusherdemo</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
+<%= render partial: 'layouts/sbadmin2/head', locals: { partials: ['layouts/angular'] } %>
 <%= yield %>
-
-</body>
-</html>
+<%= render partial: 'layouts/sbadmin2/foot' %>
