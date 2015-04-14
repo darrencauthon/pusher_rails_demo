@@ -2,6 +2,7 @@ require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
 require 'sbadmin2_rails'
+require 'poxa_assist'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.

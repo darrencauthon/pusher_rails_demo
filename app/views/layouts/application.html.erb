@@ -1,3 +1,8 @@
-<%= render partial: 'layouts/sbadmin2/head', locals: { partials: ['layouts/angular'] } %>
+<%= render partial: 'layouts/sbadmin2/head', locals: { partials: ['layouts/angular', 'layouts/pusher'] } %>
 <%= yield %>
+<script type="text/javascript">
+  $(document).ready(function(){
+    Pusher.subscribeToPresenceChannel('presence-online');
+  });
+</script>
 <%= render partial: 'layouts/sbadmin2/foot' %>
