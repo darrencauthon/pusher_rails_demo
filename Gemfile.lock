@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:darrencauthon/poxa_assist.git
-  revision: 9e95db9389e5d227bf4e0febcdcc73cbfaa9e5ca
+  revision: e5592c97bf97ed47f5f47830e7a277de55739554
   specs:
     poxa_assist (0.0.1)
       json

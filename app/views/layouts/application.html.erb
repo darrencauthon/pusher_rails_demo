@@ -4,5 +4,8 @@
   $(document).ready(function(){
       Pusher.subscribeToPresenceChannel('presence-online', { onAll: function(x){console.log(x)}});
   });
+  $(document).ready(function(){
+      Pusher.subscribeToChannel('private-chat', 'new message', function(x) { console.log(x) });
+  });
 </script>
 <%= render partial: 'layouts/sbadmin2/foot' %>
