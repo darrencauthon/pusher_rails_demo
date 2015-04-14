@@ -43,3 +43,6 @@ group :development, :test do
   gem 'spring'
 end
 
+
+gem 'sbadmin2_rails', git: 'git@github.com:darrencauthon/sbadmin2_rails.git'
+gem 'poxa_assist', git: 'git@github.com:darrencauthon/poxa_assist.git'
